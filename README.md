@@ -1,6 +1,6 @@
 # About
-MapReduce algorithm with support number of mappers, combiners and reducers.
-Also, you can choose to use combiners or not. It works with .txt and .csv files.
+MapReduce algorithm for counting words in .txt and .csv file which support number of mappers, combiners and reducers.
+Also, you can choose to use combiners or not.
 
 # Tech stack
 * Python 3.5
