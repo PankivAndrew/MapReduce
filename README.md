@@ -11,6 +11,8 @@ Also, you can choose to use combiners or not.
 
     ~$ git clone https://github.com/PankivAndrew/MapReduce
 
+Install requirements.txt
+
 ### Usage
 It is easy set number of mappers, combiners and reducers (default value is 10)
 
