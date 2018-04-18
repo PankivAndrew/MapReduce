@@ -26,7 +26,7 @@ from map_reduce import MapReduce
 
 map_reduce = MapReduce('test_data/test.txt', 12, 12, combine=True).get_result()
 ```
-Framework will run MapReduce algorithm with 12 mappers, 12 reducers, 10 combiners and create .log file for you.
+MapReduce algorithm with 12 mappers, 12 reducers, 10 combiners and create .log file for you.
 
 #### Without combiners
 
@@ -35,4 +35,4 @@ from map_reduce import MapReduce
 
 map_reduce = MapReduce('test_data/test.txt').get_result()
 ```
-Framework will run MapReduce algorithm  with 10 mappers, 10 reducers and create .log file for you.
+MapReduce algorithm  with 10 mappers, 10 reducers and create .log file for you.
