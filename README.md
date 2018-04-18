@@ -14,9 +14,11 @@ Also, you can choose to use combiners or not. It works with .txt and .csv files.
 ### Usage
 It is easy set number of mappers, combiners and reducers (default value is 10)
 
+MapReduce(file_path, num_mappers=10, num_reducers=10, num_combiners=10, combine=False)
+
+
 #### With combiners
 
-MapReduce(file_path, num_mappers=10, num_reducers=10, num_combiners=10, combine=False)
 ```python
 from map_reduce import MapReduce
 
